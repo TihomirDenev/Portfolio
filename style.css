@@ -1,6 +1,7 @@
 @import './styles/variables.css';
 @import './styles/header.css';
 @import './styles/introduction.css';
+@import './styles/portfolio.css';
 
 html,
 body,
