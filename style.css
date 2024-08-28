@@ -1,0 +1,41 @@
+@import './styles/variables.css';
+
+html,
+body,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-default);
+  font-size: 10px;
+}
+
+h1 {
+  color: var(--text-heading-color);
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--text-heading-color);
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--text-heading-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  color: var(--text-heading-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+p {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
