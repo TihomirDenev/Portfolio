@@ -1,0 +1,50 @@
+.skills-content {
+  width: 100%;
+  background-color: var(--background-color-skills);
+}
+
+.skills-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4rem;
+  padding-top: 5rem;
+  row-gap: 4rem;
+  column-gap: 3rem;
+}
+
+.skills-display article {
+  width: calc(50% - 1.5rem);
+}
+
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.2rem;
+}
+
+.skill-bar,
+.skill-progress {
+  height: 1rem;
+  border-radius: 32px;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: var(--background-skill-bar);
+}
+
+.skill-progress {
+  background-color: var(--color-primary-default);
+}
+
+@media screen and (max-width: 1024px) {
+  .skills-display {
+    margin-bottom: 0;
+  }
+
+  .skills-display article {
+    width: 100%;
+  }
+}
