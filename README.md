@@ -11,15 +11,15 @@
 
 ## <img src="https://firebasestorage.googleapis.com/v0/b/dare2fit-f6eb4.appspot.com/o/assets%2FREADME-images%2Ffaq.png?alt=media&token=12b5c59f-8faf-4cba-98f4-b6cd9329b78b&_gl=1*9f9cxq*_ga*MjExMzk5MTA5MC4xNjgzMjcwMjg1*_ga_CW55HF8NVT*MTY4NjU3Njg5Ni4xMDMuMS4xNjg2NTc3OTYxLjAuMC4w"  width="30" height="30"> Features
 
-- Header: Contains the navigation menu for quick access to various sections of the site, such as About Me, Portfolio, Skills, and Blog.
-- Feedback Section: Showcases testimonials or feedback from clients, displayed in a responsive grid layout. Each feedback card includes an image, client name, and a brief testimonial.
-- News Section:
+- ***Header:*** Contains the navigation menu for quick access to various sections of the site, such as About Me, Portfolio, Skills, and Blog.
+- ***Feedback Section:*** Showcases testimonials or feedback from clients, displayed in a responsive grid layout. Each feedback card includes an image, client name, and a brief testimonial.
+- ***News Section:***
   - Displays recent updates or news in a two-column layout for larger screens and a single-column layout for smaller screens.
   - Each news item features an image and a brief description, with a focus on visual appeal and clarity.
-- Contact Section:
+- ***Contact Section:***
   - Provides contact information and a form for users to get in touch.
   - Includes fields for name, email, meeting date, type of business, and a message. The form is validated in real-time, ensuring that all required fields are correctly filled before submission.
-- Footer:
+- ***Footer:***
   - Contains additional information and links, including:
     1. Footer Intro: A brief description and logo.
     2. Quick Links: Navigation links to different sections of the site, with dropdown functionality for smaller screens.
@@ -30,9 +30,9 @@
  
 ## <img src="https://firebasestorage.googleapis.com/v0/b/dare2fit-f6eb4.appspot.com/o/assets%2FREADME-images%2Fresources.png?alt=media&token=9fe5f5ee-5413-4af3-a50b-c7f01650d1fe&_gl=1*4u0xo2*_ga*MjExMzk5MTA5MC4xNjgzMjcwMjg1*_ga_CW55HF8NVT*MTY4NjU3Njg5Ni4xMDMuMS4xNjg2NTc3OTk4LjAuMC4w"  width="30" height="30"> JavaScript Functionality:
 
-- Form Validation: Ensures that all required fields in the contact form are correctly filled out before submission. Real-time validation provides immediate feedback to the user.
-- Dropdown Toggle: Manages the visibility of footer sections (Quick Links, Contact Info, Support Links) with a toggle mechanism for smaller screens.
-- Smooth Scrolling: Enhances user experience by enabling smooth scrolling to different sections of the page when navigation links are clicked.
+- ***Form Validation:*** Ensures that all required fields in the contact form are correctly filled out before submission. Real-time validation provides immediate feedback to the user.
+- ***Dropdown Toggle:*** Manages the visibility of footer sections (Quick Links, Contact Info, Support Links) with a toggle mechanism for smaller screens.
+- ***Smooth Scrolling:*** Enhances user experience by enabling smooth scrolling to different sections of the page when navigation links are clicked.
 
 
 ## <img src="https://firebasestorage.googleapis.com/v0/b/dare2fit-f6eb4.appspot.com/o/assets%2FREADME-images%2Fstart.png?alt=media&token=ee8cc2b3-1a61-4519-9f96-59177216b4d6&_gl=1*t5p8co*_ga*MjExMzk5MTA5MC4xNjgzMjcwMjg1*_ga_CW55HF8NVT*MTY4NjU3Njg5Ni4xMDMuMS4xNjg2NTc4MDEzLjAuMC4w"  width="30" height="30"> Getting Started
