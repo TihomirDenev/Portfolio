@@ -1,11 +1,42 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const navigationLinks = document.querySelectorAll('.navigation-link');
+  const navigationMenus = document.querySelectorAll('.navigation-menu');
+  const burgerMenu = document.querySelector('.burger-menu');
   const sendButton = document.querySelector('.form-button button');
   const nameInput = document.getElementById('name');
   const emailInput = document.getElementById('email');
   const dateInput = document.querySelector('input[type="date"]');
   const messageInput = document.getElementById('message');
   const businessTypeSelect = document.getElementById('businessType');
+  const toggles = document.querySelectorAll('.footer-dropdown-toggle');
 
+  // Toggle navigation menu visibility
+  function toggleMenu() {
+    navigationMenus.forEach((menu) => menu.classList.toggle('active'));
+  }
+
+  // Attach event listener to burger menu
+  burgerMenu.addEventListener('click', toggleMenu);
+
+  // Navigation link behavior
+  navigationLinks.forEach((link) => {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      const targetId = event.target.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+        window.scrollTo({
+          top: targetSection.offsetTop - 81,
+          behavior: 'smooth',
+        });
+      }
+
+      navigationMenus.forEach((menu) => menu.classList.remove('active'));
+    });
+  });
+
+  // Validate fields and update button state
   function updateButtonState() {
     if (
       !nameInput.value.trim() ||
@@ -104,4 +135,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     return isFormValid;
   }
+
+  toggles.forEach((toggle) => {
+    const content = toggle.nextElementSibling;
+
+    content.style.display = 'none';
+    toggle.classList.remove('active');
+
+    toggle.addEventListener('click', function () {
+      if (content.style.display === 'none') {
+        content.style.display = 'flex';
+        this.classList.add('active');
+      } else {
+        content.style.display = 'none';
+        this.classList.remove('active');
+      }
+    });
+  });
 });
