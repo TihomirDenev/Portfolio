@@ -3,7 +3,7 @@
 - The site is designed with a modern, responsive layout featuring a header, main content sections, and a footer.
 - CSS styles are applied to ensure a cohesive design, with adjustments for different screen sizes using media queries.
 
-**Languages:** <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="20"> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" height="20">
+**Languages:** <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="20"> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" height="20"> <img src="https://github.com/gilbarbara/logos/blob/main/logos/css-3.svg" height="20">
 
 **Linters:** <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" height="20">
 
