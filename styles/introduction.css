@@ -1,0 +1,104 @@
+#home {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  color: var(--text-description-color);
+}
+
+.heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.woman-picture {
+  max-width: 45%;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.button {
+  padding: 2rem 4rem;
+  border-radius: 0.3rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary {
+  border: 1px solid var(--color-primary-default);
+  color: var(--background-color-default);
+  background-color: var(--color-primary-default);
+}
+
+.primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.secondary {
+  border: 1px solid var(--color-primary-default);
+  color: var(--color-primary-default);
+  background-color: var(--background-color-default);
+}
+
+.secondary:hover {
+  background-color: var(--color-secondary-hover);
+}
+
+.disabled {
+  border: 1px solid var(--color-disabled);
+  color: var(--color-primary-default);
+  background-color: var(--color-disabled);
+  pointer-events: none;
+}
+
+.cv-link {
+  color: var(--color-primary-default);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    padding-top: 1rem;
+  }
+
+  .buttons {
+    gap: 1rem;
+    padding-top: 2rem;
+  }
+
+  .button {
+    padding: 1.2rem 3rem;
+  }
+
+  .woman-picture {
+    max-width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro-container {
+    max-width: 100%;
+  }
+
+  .buttons {
+    padding-top: 2rem;
+  }
+
+  .woman-picture {
+    display: none;
+  }
+}
