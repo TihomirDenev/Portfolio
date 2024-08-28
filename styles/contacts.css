@@ -1,0 +1,181 @@
+.contacts-container {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  padding-top: 5rem;
+}
+
+.personal-info {
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.personal-contact-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.personal-contact-info a {
+  color: var(--text-heading-color);
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  width: 720px;
+  padding: 5rem 3rem;
+  box-shadow: -2px 4px 2px -1px var(--border-color-form);
+}
+
+form p {
+  padding: 0;
+}
+
+input,
+textarea,
+select,
+.email,
+.form-business p,
+.form-date p {
+  border: none;
+  color: var(--text-description-color);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+textarea,
+.name,
+.email {
+  width: 100%;
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid var(--border-color-form);
+}
+
+#name:focus,
+#email:focus,
+textarea:focus {
+  padding-bottom: 0;
+  border-bottom: 2px solid var(--border-bottom-active);
+  outline: none;
+}
+
+input[type='date'].form-field:focus,
+select.form-field:focus {
+  outline: none;
+}
+
+input.error,
+textarea.error {
+  padding-bottom: 0;
+  border-bottom: 2px solid var(--color-primary-default) !important;
+  outline: none;
+}
+
+.user-info-form {
+  display: flex;
+  gap: 3rem;
+  padding-bottom: 1rem;
+}
+
+.personal-contact-info img {
+  width: 25px;
+}
+
+.user-info-form .input-field {
+  width: 100%;
+}
+
+.form-date .input-field {
+  display: flex;
+  gap: 2rem;
+}
+
+.form-date .form-field {
+  width: 140px;
+  padding-bottom: 0.2rem;
+}
+
+.form-date .form-field.error {
+  padding-bottom: 0;
+  border-bottom: 2px solid var(--color-primary-default) !important;
+  outline: none;
+}
+
+.form-business {
+  display: flex;
+  gap: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.error-message {
+  display: block;
+  height: 1.4rem;
+  color: var(--text-color-hover) !important;
+  font-size: 1rem !important;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts-container {
+    align-items: flex-start;
+    gap: 4rem;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+
+  .personal-info {
+    gap: 2.5rem;
+  }
+
+  .user-info-form {
+    gap: 7rem;
+    padding-right: 5rem;
+  }
+
+  form {
+    padding: 4rem 2rem;
+    box-shadow: 0px 5px 4px 2px var(--border-color-form);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .personal-contact-info p {
+    font-size: 1.6rem;
+  }
+
+  .user-info-form {
+    gap: 4rem;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  form {
+    gap: 2.5rem;
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+
+  .form-date .input-field {
+    gap: 1rem;
+  }
+
+  .form-business {
+    gap: 0;
+  }
+
+  .form-business select {
+    margin-left: 1.5rem;
+  }
+
+  .form-button {
+    display: flex;
+    justify-content: center;
+  }
+}
