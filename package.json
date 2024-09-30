@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A simple Person Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.html, css/*.css, js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TihomirDenev/Portfolio"
+  },
+  "author": "Tihomir Denev",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  }
+}

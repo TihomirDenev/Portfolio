@@ -45,10 +45,10 @@
 
 # 🛠 Getting Started
 
-1. Clone the [Portfolio GitHub repository](https://github.com/TihomirDenev/My-PortFolio) locally:
+1. Clone the [Portfolio GitHub repository](https://github.com/TihomirDenev/Portfolio.git) locally:
 
 ```bash
-git clone https://github.com/TihomirDenev/My-PortFolio.git
+git clone https://github.com/TihomirDenev/Portfolio.git
 ```
 
 2. Navigate to the project directory:
@@ -57,13 +57,19 @@ git clone https://github.com/TihomirDenev/My-PortFolio.git
 cd My-PortFolio
 ```
 
-3. To run the project, use the following command:
+3. Install project dependencies:
+
+```bash
+npm install
+```
+
+4. To run the project, use the following command:
 
 ```bash
 npm start
 ```
 
-4. Open localhost link in browser to view web-platform.
+5. Open localhost link in browser to view web-platform.
 
 # ⚖ License
 
