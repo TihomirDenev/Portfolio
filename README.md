@@ -54,7 +54,7 @@ git clone https://github.com/TihomirDenev/Portfolio.git
 2. Navigate to the project directory:
 
 ```bash
-cd My-PortFolio
+cd Portfolio
 ```
 
 3. Install project dependencies:
