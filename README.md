@@ -45,7 +45,7 @@
 
 # ✅ Getting Started
 
-1. Clone the [Portfolio GitHub repository](https://github.com/TihomirDenev/Portfolio.git) locally:
+1. Clone the Portfolio [GitHub repository](https://github.com/TihomirDenev/Portfolio.git) locally:
 
 ```bash
 git clone https://github.com/TihomirDenev/Portfolio.git
