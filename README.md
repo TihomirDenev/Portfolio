@@ -1,76 +1,134 @@
-<h2 align="center">
-  Welcome to My Portfolio Website! <br/>
-  <a href="https://github.com/TihomirDenev/Portfolio" target="_blank">Check it out on GitHub</a>
-</h2>
+# 🎨 Personal Portfolio Website
+
 <div align="center">
-  <img alt="Demo" src="assets/images/home-page.png" height="350"/>
+  <img alt="Portfolio Demo" src="assets/images/home-page.png" height="350"/>
+  <br/>
+  <a href="https://github.com/TihomirDenev/Portfolio" target="_blank">View on GitHub</a>
 </div>
 
-# 📝 Description
+## 📋 Overview
 
-- The site is designed with a modern, responsive layout featuring a header, main content sections, and a footer.
-- CSS styles are applied to ensure a cohesive design, with adjustments for different screen sizes using media queries.
-  <br/><br/>
+A modern, responsive personal portfolio website showcasing professional work, skills, and contact information. Built with vanilla HTML, CSS, and JavaScript for optimal performance and maintainability.
 
-# 🗃️ Technologies Used
+## ✨ Features
 
-- Languages: <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" title="JavaScript" height="20"> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" title="HTML5" height="20"> <img src="https://raw.githubusercontent.com/TihomirDenev/TihomirDenev/7eb17a3bfc0763abf25e12b62d9ab497b144dd38/assets/logos/css-3.svg" title="CSS3" height="30">
+**🎯 Core Sections**
 
-- Browsers: <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white" height="20"> <img src="https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white" height="20"> <img src="https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white" height="20"> <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" height="20"> <img src="https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white" height="20">
-  <br/><br/>
+- **Header Navigation**: Smooth scrolling navigation with mobile-responsive burger menu
+- **Introduction**: Hero section with personal introduction and call-to-action buttons
+- **Portfolio**: Grid layout showcasing professional work and projects
+- **Skills**: Visual skill bars with percentage indicators
+- **Feedback**: Client testimonials in responsive card layout
+- **News/Updates**: Latest news and updates section
+- **Contact**: Interactive contact form with real-time validation
+- **Footer**: Comprehensive footer with quick links and contact information
 
-# 💡 Features
+**🔧 Interactive Features**
 
-- **_Header:_** Contains the navigation menu for quick access to various sections of the site, such as About Me, Portfolio, Skills, and Blog.
-- **_Feedback Section:_** Showcases testimonials or feedback from clients, displayed in a responsive grid layout. Each feedback card includes an image, client name, and a brief testimonial.
-- **_News Section:_**
-  - Displays recent updates or news in a two-column layout for larger screens and a single-column layout for smaller screens.
-  - Each news item features an image and a brief description, with a focus on visual appeal and clarity.
-- **_Contact Section:_**
-  - Provides contact information and a form for users to get in touch.
-  - Includes fields for name, email, meeting date, type of business, and a message. The form is validated in real-time, ensuring that all required fields are correctly filled before submission.
-- **_Footer:_**
-  - Contains additional information and links, including:
-    1. Footer Intro: A brief description and logo.
-    2. Quick Links: Navigation links to different sections of the site, with dropdown functionality for smaller screens.
-    3. Contact Info: Details including address, phone number, and email, with dropdown functionality for smaller screens.
-    4. Support Links: Links to privacy policy, testimonials, and contact manager.
-  - The footer adapts to screen size changes, switching between a multi-column layout on larger screens and a stacked layout with dropdowns on smaller screens.
+- **Form Validation**: Real-time validation for contact form fields
+- **Responsive Design**: Mobile-first approach with breakpoints for all devices
+- **Smooth Scrolling**: Enhanced navigation experience
+- **Dropdown Menus**: Collapsible footer sections for mobile devices
+- **Dynamic Button States**: Form submission button updates based on validation
 
-# ⚙️ JavaScript Functionality:
+## 🛠️ Technologies Used
 
-- **_Form Validation:_** Ensures that all required fields in the contact form are correctly filled out before submission. Real-time validation provides immediate feedback to the user.
-- **_Dropdown Toggle:_** Manages the visibility of footer sections (Quick Links, Contact Info, Support Links) with a toggle mechanism for smaller screens.
-- **_Smooth Scrolling:_** Enhances user experience by enabling smooth scrolling to different sections of the page when navigation links are clicked.
+### Frontend
 
-# ✅ Getting Started
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-1. Clone the Portfolio [GitHub repository](https://github.com/TihomirDenev/Portfolio.git) locally:
+### Browser Support
 
-```bash
-git clone https://github.com/TihomirDenev/Portfolio.git
-```
+![Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white) ![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white) ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white) ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
 
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TihomirDenev/Portfolio.git
+   ```
 2. Navigate to the project directory:
+   ```bash
+   cd Portfolio
+   ```
+3. Install dependencies (for live reload during development):
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open `http://localhost:3000` in your browser
 
-```bash
-cd Portfolio
+## 📁 Project Structure
+
+```
+Portfolio/
+├── assets/
+│   ├── files/
+│   │   └── CV.pdf
+│   └── images/
+│       ├── home-page.png
+│       ├── rory-photo.jpg
+│       └── [other images]
+├── styles/
+│   ├── variables.css
+│   ├── header.css
+│   ├── introduction.css
+│   ├── portfolio.css
+│   ├── skills.css
+│   ├── feedback.css
+│   ├── latest-update.css
+│   ├── contacts.css
+│   └── footer.css
+├── index.html
+├── style.css
+├── script.js
+├── package.json
+└── README.md
 ```
 
-3. Install project dependencies:
+## 🎨 Design Features
 
-```bash
-npm install
-```
+- **Responsive Layout**: Adapts seamlessly to desktop, tablet, and mobile devices
+- **Modern UI**: Clean, professional design with attention to typography and spacing
+- **CSS Variables**: Consistent theming with CSS custom properties
+- **Modular CSS**: Organized stylesheets for maintainable code
+- **Smooth Animations**: Subtle transitions and hover effects
 
-4. To run the project, use the following command:
+## 🔍 JavaScript Functionality
 
-```bash
-npm start
-```
+### Form Validation
 
-5. Open localhost link in browser to view web-platform.
+- Real-time field validation with error messages
+- Email format validation
+- Date validation (future dates only)
+- Minimum character requirements for messages
+- Dynamic button state management
 
-# 📇 License
+### Navigation
 
-- This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+- Smooth scrolling to page sections
+- Mobile-responsive burger menu
+- Active state management
+
+### Interactive Elements
+
+- Footer dropdown toggles for mobile
+- Form submission handling
+- Dynamic content updates
+
+## 📱 Responsive Breakpoints
+
+- **Desktop**: 1024px and above
+- **Tablet**: 768px - 1023px
+- **Mobile**: Below 768px
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+⭐ If you found this project helpful, please give it a star on GitHub!
