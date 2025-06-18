@@ -3,7 +3,7 @@
 <div align="center">
   <img alt="Portfolio Demo" src="assets/images/home-page.png" height="350"/>
   <br/>
-  <a href="https://github.com/TihomirDenev/Portfolio" target="_blank">View on GitHub</a>
+  <a href="https://portfolio-example-beige-six.vercel.app/" target="_blank">View on Web</a>
 </div>
 
 ## 📋 Overview
